@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+        <title>Hotel</title><style type="text/css">
+            body {background-color: #ADEAEA;
+                  margin-top: 60px; margin-right: 40px; margin-bottom: 60px; margin-left: 70px; }
+            h1 { border: black 5px solid; }
+        </style>
+        <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/" />
+
+    </head>
+
+    <body>
+        <h1>Reserva Hotel On-line</h1>
+
+        <form action="matricula.php" method="get">
+            <p><b>Nombre:</b> <input type="text" name="Nombre" maxlength="40" /><br />
+                <br />
+                <b>Apellido:</b> <input type="text" name="Apellido" maxlength="40" /> <br />
+                <br />
+                <b>Teléfono:</b> <input type="text" name="Nombre" maxlength="12" /> <br />
+                <br />
+                <b>Email:</b>        <input type="text" name="Nombre" maxlength="50" /> <br />
+                <br />
+                <b>Nº Coches:</b> <input name="coches" maxlength="1" type="text" /> <br />
+                <br />
+                <b>Fecha de Entrada:</b>    
+                <select>
+                    <option selected="selected">Dia</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+
+                <select>
+                    <option selected="selected">Mes</option>
+                    <option>Enero</option>
+                    <option>Febrero</option>
+                    <option>Marzo</option>
+                    <option>Abril</option>
+                    <option>Mayo</option>
+                    <option>Junio</option>
+                    <option>Julio</option>
+                    <option>Agosto</option>
+                    <option>Septiembre</option>
+                    <option>Octubre</option>
+                    <option>Noviembre</option>
+                    <option>Diciembre</option>
+                </select>
+            </p>
+
+            <p><br />
+                <br />
+                <b>OTROS DATOS DE INTERÉS</b> </p>
+
+            <p><b>Comidas a incluir:</b> </p>
+
+            <p style="margin-left:10em">Desayuno <input type="radio" name="radio_d" /></p>
+
+            <p style="margin-left:10em">Comida <input type="radio" name="radio_c" /></p>
+
+            <p style="margin-left:10em">Cena <input type="radio" name="radio_c2" /></p>
+
+            <p><br />
+                <b>Cama supletoria <input type="radio" name="radio" /></b></p>
+            <br />
+            <b>Comentarios:</b> <br />
+            <textarea rows="7" cols="70"></textarea><br />
+
+            <p>
+                <input type="submit" value="Enviar" name="form" method="post"
+                       action="reservas@mihotel.com" /> </p>
+        </form>
+
+        <p>Pulsa el botón de "Enviar" para formalizar la reserva.</p>
+    </body>
+</html>
